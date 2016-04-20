@@ -5,7 +5,11 @@ using System.Text;
 
 namespace CSharp_Leap
 {
-    public class Class1
+    public class Year
     {
+        public static bool IsLeap(int yearID)
+        {
+            return true;
+        }
     }
 }
