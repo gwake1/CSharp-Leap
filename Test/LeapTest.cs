@@ -16,7 +16,6 @@ namespace CSharp_Leap.Test
             Assert.That(Year.IsLeap(1997), Is.False);
         }
 
-        [Ignore("Remove to run test")]
         [Test]
         public void Turn_of_the_20th_century_is_not_a_leap_year()
         {
