@@ -10,7 +10,6 @@ namespace CSharp_Leap.Test
             Assert.That(Year.IsLeap(1996), Is.True);
         }
 
-        [Ignore("Remove to run test")]
         [Test]
         public void Invalid_leap_year()
         {

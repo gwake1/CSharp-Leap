@@ -9,7 +9,15 @@ namespace CSharp_Leap
     {
         public static bool IsLeap(int yearID)
         {
-            return true;
+            int modulo4 = yearID % 4;
+            if (modulo4 == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
